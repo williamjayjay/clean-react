@@ -1,11 +1,12 @@
 {
   "extends":"standard-with-typescript",
-  "parserOption":{
+  "parserOptions":{
     "project":"./tsconfig.json"
   },
   "rules":{
     "@typescript-eslint/consistent-type-definitions":"off",
-    "@typescript-eslit/strict-boolean-expressions":"off"
+    "@typescript-eslint/strict-boolean-expressions":"off"
+    
   }
   
 }
